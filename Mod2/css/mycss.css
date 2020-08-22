@@ -2,34 +2,51 @@
 
 *{  box-sizing: border-box;
     margin: 0;
-    padding: 0;;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
 }
 
 .pad{
     background-color: teal;
     position: relative;
-    border: black solid 3px;
+    border: black solid 1px;
     margin: 30px;    
     
 }
 h1{
     text-align: center;
     margin: 50px;
+    font-size: 1.75em;
 }
-
-h5{   
-   background-color: cyan;
-   border: black solid 3px;
+.i1{
+    background-color: cyan;
+}
+.i2{
+    background-color: lavender
+}
+.i{
+background-color: seagreen;
+}
+h6{   
+   
+   border: black solid 1px;
    border-top: 0;
    border-right: 0;
    position: absolute;
    right: 0;
+   padding: 2px;
+   padding-right: 5px;
+   padding-left: 5px;
+   font-size: 1.75em;
    
 }
 p{
-    padding-top: 20px ;
+    padding-top: 50px ;
     padding-left: 10px;
     padding-right: 10px;
+    padding-bottom: 5px;
+    font-size: 1.25em;
 
     
 }
