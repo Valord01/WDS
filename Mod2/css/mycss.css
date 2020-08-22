@@ -1,1 +1,51 @@
 
+
+*{  box-sizing: border-box;
+    margin: 0;
+    padding: 0;;
+}
+
+.pad{
+    background-color: teal;
+    position: relative;
+    border: black solid 3px;
+    margin: 30px;    
+    
+}
+h1{
+    text-align: center;
+    margin: 50px;
+}
+
+h5{   
+   background-color: cyan;
+   border: black solid 3px;
+   border-top: 0;
+   border-right: 0;
+   position: absolute;
+   right: 0;
+   
+}
+p{
+    padding-top: 20px ;
+    padding-left: 10px;
+    padding-right: 10px;
+
+    
+}
+@media ( min-width:992px)
+{   .coll{
+    float: left;
+    width: 33.33%;
+}
+}
+@media ( min-width:768px) and (max-width:991px )
+{   .colm{
+    float: left;
+    width: 50%;
+}
+ .colm1{
+    float: left;
+     width: 100%;
+ }
+}
