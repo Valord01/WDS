@@ -1,0 +1,59 @@
+
+body{ 
+    font-family: 'Balsamiq Sans', cursive;
+}
+li{
+    font-size: 1.2em;
+}
+.navbar-brand
+{
+    font-size: 30px;
+}
+nav{
+    background-color:rgb(7, 207, 207);
+}
+.container-fluid{
+    margin-top: 50px;
+}
+h1{
+    margin-top: 50px;
+}
+
+#section1, #section2, #section3
+{
+    background-image: linear-gradient(rgb(10, 235, 235),rgb(1, 155, 167));
+    border-radius: 15px;
+   
+}
+h3{
+    padding-top: 20px;
+}
+p
+{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+@media (min-width:992px)
+{
+#navbarTogglerDemo01{
+    visibility: hidden;
+}
+
+}
+#li1{
+    border-top: solid 2px;
+}
+li{
+    border-bottom: solid 2px black;
+}
+a, a:hover,a:active,a:link
+{
+text-decoration: none;
+color: black;
+}
+a:hover
+{
+    text-decoration: underline;
+    color:black;
+}
